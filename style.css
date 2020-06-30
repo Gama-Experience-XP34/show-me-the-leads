@@ -87,7 +87,7 @@ body {
     border-radius: 3px;
     padding: 6px 20px;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     padding: 20px;
 }
 
@@ -102,7 +102,7 @@ body {
     border-style: none;
     background: #FF5A5F;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -113,7 +113,7 @@ h1 {
 .footer {
     position: absolute;
     width: 100vw;
-    height: 474px;
+    height: 174px;
     top: 100%;
     
     background: #EFF9F0;
@@ -126,4 +126,69 @@ h1 {
     text-align: center;
 
     color: #13070C;
+}
+
+@media (max-width: 420px) {
+
+    .company {
+        display: flex;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 100%;
+        height: auto;
+
+        background-image: url(/imgs/logoTemp.svg);
+    }
+
+    .message {
+        position: absolute;
+        width: 332px;
+        height: 68px;
+        left: 24px;
+        top: 108px;
+        margin-top: 10px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        
+        color: #13070C;
+    
+    }
+
+    .container form {
+        display: table;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(/imgs/MaskGroup.svg);
+        border-radius: 30px;
+        padding: 30px 10px;
+        box-sizing: border-box;
+        margin-top: 30px;
+
+        position: absolute;
+        width: 283px;
+        height: 361px;
+        left: 65px;
+        top: 191px;
+
+    }
+
+    body {
+        background: #EFF9F0;
+    }
+
+    .line {
+        display: none;
+    }
+
 }
