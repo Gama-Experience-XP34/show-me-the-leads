@@ -11,7 +11,7 @@
 body {
     text-align: center;
     position: relative;
-    width: 1366px;
+    width: 100vw;
     height: 768px;
     left: 0px;
     top: 0px;
