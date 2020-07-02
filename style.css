@@ -1,52 +1,81 @@
-body {
+body, html {
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
     height: 768px;
     background-image: url(/imgs/background.svg);
+    background-color:#EFF9F0;;
 }
 
 .mainLogo {
+    display: -moz-box; /* Firefox*/
+    display: -webkit-box; /* Chrome */
+    display: -ms-flexbox;
+    display: flexbox;
+    flex-direction: row;
+    
+    width: 95%;
+    height: 150px;
     position: relative;
     width: 230px;
     height: 184px;
-    left: -3px;
-    top: -11px;
+    left: -27px;
+    bottom: 0px;
+    top: 100%;
     background-image: url(/imgs/logo2.png);
 
 }
 
-.message {
-    text-align: center;
+
+h1 {
     position: relative;
-    background-color: #454E9E;
-    color: white;
-    vertical-align: middle;
+    width: 100%;
+    height: 76px;
+    top: 0px;
     
-    width: 449px;
-    height: 181px;
-    left: 710px;
-    top: 110px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 76px;
+    text-align: center;
+    
+    color: #13070C;
+}
+
+p {
+
+    position: relative;
+    width: 100%;
+    height: 76px;
+    top: 0px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 76px;
-
-
-    border-radius: 40px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
 
-    .message {
-    width: 300px;
-    height: 281px;
-    left: 5px;
-    top: 50px;
-    }
+h1 {
+    position: absolute;
+    top: 10px;
+}
+
+p {
+    margin-top: 70px;
+}
+
+body, html {
+    height: 100vw;
+}
 
 .mainLogo {
-    width: 100vw;
+    bottom: 0%;
+    width: 50%;
     background-repeat: no-repeat;
 }
 
