@@ -191,6 +191,13 @@ li {
     color: #13070C;
 }
 
+#textFooter {
+    margin: 1em auto;
+    padding: 20px;
+    
+    background: #EFF9F0;
+}
+
 
 /* ----------Responsive design---------- */
 
