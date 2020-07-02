@@ -192,8 +192,9 @@ li {
 }
 
 #textFooter {
-    margin: 2em auto;
+    margin: 2em;
     text-align: center;
+    padding: 20px;
     
     background: #EFF9F0;
 }
